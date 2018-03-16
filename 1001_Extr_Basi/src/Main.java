@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 /* Descrição:
  * lê dois valores e apresenta a soma desses valores
- */
-
-/**
+ *
  * @author gilberto
  * 09/03/2018
  */
