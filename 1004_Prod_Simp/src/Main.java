@@ -1,9 +1,7 @@
 import java.util.Scanner;
 /*
- * Este código resolve o problema 1001 do módulo iniciante
- */
-
-/**
+ * Este código lê dois inteiros e apresenta a produto deles
+ *
  * @author gilberto
  * 09/03/2018
  */
