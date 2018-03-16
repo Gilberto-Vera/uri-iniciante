@@ -1,2 +1,2 @@
 # uri-iniciante
-Desafios do URI categoria Iniciante
+Desafios do URI categoria Iniciante para aprender e aperfeiçoar os conhecimentos na linguagem JAVA...
