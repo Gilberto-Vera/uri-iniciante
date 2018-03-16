@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
 /*
- * Este código resolve o problema 1001 do módulo iniciante
- */
-
-/**
+ * Este código lê um número de ponto flutuante e calcula a área de um cirbulo
+ *
  * @author gilberto
  * 09/03/2018
  */
