@@ -5,6 +5,7 @@ import java.util.Scanner;
  * a e b pelo produgo de c e d.
  * obs: (a * b - c * d).
  *
+*/
 
  /**
  * @author gilberto
