@@ -5,8 +5,11 @@ import java.util.Scanner;
  * a e b pelo produgo de c e d.
  * obs: (a * b - c * d).
  *
+
+ /**
  * @author gilberto
- * 13/03/2018
+ * @since 2018-04-04
+ * @version 1.0
  */
 public class Main {
     public static void main (String[] args){
