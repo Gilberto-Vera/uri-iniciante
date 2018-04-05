@@ -4,9 +4,12 @@ import java.util.Scanner;
  * peso 2, a nota B tem peso 3 e a nota C tem peso 5.
  * obs: Considerando que cada nota pode ir de 0 até 10.0, sempre com uma casa 
  * decimal.
- * 
+*/
+
+ /**
  * @author gilberto
- * 13/03/2018
+ * @since 2018-03-13
+ * @version 1.0
  */
 public class Main {
     public static void main (String[] args){
