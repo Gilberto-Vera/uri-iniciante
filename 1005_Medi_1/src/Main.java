@@ -3,9 +3,12 @@ import java.util.Scanner;
  * Este código lê dois valores e calcula e exibe média ponderada, sendo que 
  * A tem peso 3,5 e B tem peso 7,5.
  * obs: apresenta o resultado com 5 casas decimais.
- * 
+*/
+
+ /**
  * @author gilberto
- * 09/03/2018
+ * @since 2018-03-09
+ * @version 1.0
  */
 public class Main {
     public static void main (String args[]){
