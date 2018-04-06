@@ -18,7 +18,7 @@ public class Main {
         double a = ler.nextDouble();
         double b = ler.nextDouble();
         double c = ler.nextDouble();
-        
+                
         double media = ((a * 2) + (b * 3) + (c * 5)) / 10;
         
         System.out.printf("MEDIA = %.1f\n", media);
