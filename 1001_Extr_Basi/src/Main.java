@@ -9,7 +9,6 @@ import java.util.Scanner;
  * @since 2018-03-09
  * @version 0.1
  */
-
 public class Main {
     public static void main (String args[]){
         Scanner ler = new Scanner(System.in);
