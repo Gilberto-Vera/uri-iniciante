@@ -1,9 +1,13 @@
 import java.util.Scanner;
 /*
- * Este código lê dois inteiros e apresenta a produto deles
- *
+ * Desafio:1004 Produto Simples
+ * Descrição: O código lê dois inteiros e apresenta a produto deles
+ */
+
+/**
  * @author gilberto
- * 09/03/2018
+ * @since 2018-03-09
+ * @version 0.1
  */
 public class Main {
     public static void main (String args[]){
