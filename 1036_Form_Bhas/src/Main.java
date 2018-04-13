@@ -1,18 +1,16 @@
-
 import java.util.Scanner;
-
 /*
- * 1036 Fórmula de Bhakara
- * O código lê 3 valores de ponto flutuante e efetue o cálculo das raízes da 
- * equação de Bhaskara. Se não for possível calcular as raízes, mostra a
- * mensagem correspondente “Impossivel calcular”, caso haja uma divisão por 0 
+ * Desafio: 1036 Fórmula de Bhaskara
+ * Descrição: O código lê 3 valores de ponto flutuante e efetue o cálculo das
+ * raízes da equação de Bhaskara. Se não for possível calcular as raízes, mostra
+ * a mensagem correspondente “Impossivel calcular”, caso haja uma divisão por 0 
  * ou raiz de numero negativo.
  */
 
 /**
  * @author gilberto
  * @since 2018-04-10
- * @version 1.0
+ * @version 0.1
  */
 public class Main {
     public static void main(String[] args) {
