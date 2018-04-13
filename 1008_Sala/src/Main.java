@@ -1,11 +1,15 @@
 import java.util.Scanner;
 /*
- * Este código lê trẽs valores: Número do funcionário, número de horas 
+ * Desafio: 1008 Salário
+ * Descrição: O código lê três valores: Número do funcionário, número de horas 
  * trabalhadas e valor da hora trabalhada e em apresenta o valor do salário.
  * obs: O salario é apresentado com duas casas decimais.
- * 
+ */
+
+/**
  * @author gilberto
- * 13/03/2018
+ * @since 2018-03-13
+ * @version 0.1
  */
 public class Main {
     public static void main (String[] args){
