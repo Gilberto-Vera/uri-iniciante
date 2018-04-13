@@ -1,14 +1,16 @@
-
 import java.util.Scanner;
-
 /*
- * O código recebe o tempo de viagem, a velocidade média, calcula a distância 
- * percorrida e verifica quantos litros de combustível será gasto num carro que
- * faz 12 km/l.
+ * Desafio: 1017 Gasto de Combústives
+ * Descrição: O código recebe o tempo de viagem, a velocidade média, calcula a
+ * distância percorrida e verifica quantos litros de combustível será gasto num
+ * carro que faz 12 km/l.
  * Dado pela relação dist = Veloc * tempo
- *
+ */
+
+/**
  * @author gilberto
- * 20/03/2018
+ * @since 2018-03-20
+ * @version 0.1
  */
 public class Main {
     public static void main(String args[]){
