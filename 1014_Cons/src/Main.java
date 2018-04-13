@@ -1,14 +1,16 @@
-
 import java.util.Scanner;
-
 /*
- * Este código calcula o consumo médio de um automóvel sendo fornecidos a partir
- * da distância total percorrida (em Km) e o total de combustível gasto (em 
- * litros).
+ * Desafio: 1014 Consumo
+ * Descrição: Este código calcula o consumo médio de um automóvel sendo 
+ * fornecidos a partir da distância total percorrida (em Km) e o total de
+ * combustível gasto (em litros).
  * E apresenta o consumo em km/l com 3 casas decimais.
- *
+ */
+
+/**
  * @author gilberto
- * 20/03/2018
+ * @since 2018-03-20
+ * @version 0.1
  */
 public class Main {
     public static void main(String args[]){
