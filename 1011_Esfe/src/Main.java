@@ -1,11 +1,14 @@
-
 import java.util.Scanner;
-
 /*
- * Este código mostra o volume de uma esfera a partir de um valor fornecido
- * raio (R)com a fórmula: (4/3) * pi * R3. Considerando pi como 3.14159.
- * 
+ * Desafio: 1011 Esfera
+ * Descrição: Este código mostra o volume de uma esfera a partir de um valor 
+ * fornecido raio (R)com a fórmula: (4/3) * pi * R3. Considerando pi como 3.14159.
+ */
+
+/**
  * @author gilberto
+ * @since 2018-04-13
+ * @version 0.1
  */
 
 public class Main {
