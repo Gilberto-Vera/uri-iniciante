@@ -1,13 +1,15 @@
-
 import java.util.Scanner;
-
 /*
- * Este código le o código de uma peça 1, o número de peças 1, o valor unitário
- * de cada peça 1, o código de uma peça 2, o número de peças 2 e o valor
- * unitário de cada peça 2 e mostra o valor a ser pago.
- * 
+ * Desafio: 1010 Cálculo Simples
+ * Descrição: Este código le o código de uma peça 1, o número de peças 1, o 
+ * valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e 
+ * o valor unitário de cada peça 2 e mostra o valor a ser pago.
+ */
+
+/**
  * @author gilberto
- * 16/03/2018
+ * @since 2018-03-16
+ * @version 0.1
  */
 public class Main {
     public static void main(String args[]){
