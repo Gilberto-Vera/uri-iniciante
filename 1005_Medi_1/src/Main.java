@@ -1,14 +1,15 @@
 import java.util.Scanner;
 /*
- * Este código lê dois valores e calcula e exibe média ponderada, sendo que 
- * A tem peso 3,5 e B tem peso 7,5.
+ * Desafio: 1005 Média 1
+ * Descrição: Este código lê dois valores e calcula e exibe média ponderada, 
+ * sendo que A tem peso 3,5 e B tem peso 7,5.
  * obs: apresenta o resultado com 5 casas decimais.
 */
 
  /**
  * @author gilberto
  * @since 2018-03-09
- * @version 1.0
+ * @version 0.1
  */
 public class Main {
     public static void main (String args[]){
