@@ -1,18 +1,16 @@
-
 import java.util.Scanner;
-
 /*
- *  O código lê um valor inteiro correspondente à idade de uma pessoa em dias e
- * informa em anos, meses e dias.
+ * Desafio: 1020 Idade em Dias
+ * Descrição: O código lê um valor inteiro correspondente à idade de uma pessoa
+ * em dias e informa em anos, meses e dias.
  * Obs.: o cálculo considera todo ano com 365 dias e todo mês com 30 dias.
  */
 
 /**
  * @author gilberto
  * @since 2018-04-05
- * @version 1.0
+ * @version 0.1
  */
-
 public class Main {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);

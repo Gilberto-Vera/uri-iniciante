@@ -1,16 +1,19 @@
-
 import java.util.Scanner;
-
 /*
- * Este código lê trẽs valores com ponto flutuante de dupla precisão: A, B e C. 
- * Calcula e mostra:
+ * Desafio: 1012 Área
+ * Descrição: Este código lê trẽs valores com ponto flutuante de dupla precisão: 
+ * A, B e C. Calcula e mostra:
  * a) a área do triângulo retângulo que tem A por base e C por altura.
  * b) a área do círculo de raio C. (pi = 3.14159)
  * c) a área do trapézio que tem A e B por bases e C por altura.
  * d) a área do quadrado que tem lado B.
  * e) a área do retângulo que tem lados A e B. 
- *
+ */
+
+/**
  * @author gilberto
+ * @since 2018-04-13
+ * @version 0.1
  */
 public class Main {
     public static void main(String[] args) {

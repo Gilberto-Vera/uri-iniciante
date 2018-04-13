@@ -1,16 +1,15 @@
-
 import java.util.Scanner;
-
 /*
- * O código lê um valor inteiro, que é o tempo de duração em segundos de um
- * determinado evento em uma fábrica, e informa expresso no formato
+ * Desafio: 1019 Conversão de Tempo
+ * Descrição: O código lê um valor inteiro, que é o tempo de duração em segundos
+ * de um determinado evento em uma fábrica, e informa expresso no formato
  * horas:minutos:segundos.
  */
 
 /**
  * @author gilberto
  * @since 2018-04-04
- * @version 1.0
+ * @version 0.1
  */
 public class Main {
     public static void main(String[] args) {

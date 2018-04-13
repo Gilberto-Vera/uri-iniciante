@@ -1,13 +1,15 @@
-
 import java.util.Scanner;
-
 /*
- * O programa Le quatro valores correspondentes aos eixos x e y de dois pontos
- * quaisquer no plano, p1(x1,y1) e p2(x2,y2) e calcula a distância entre eles,
- * mostrando 4 casas decimais após a vírgula, segundo a fórmula:
- * Distancia = raiz[(x2 - x1)quad + (y2 - y1)quad]
- *
+ * Desafio: 1015 Distância Entre Dois Pontos
+ * Descrição: O programa Le quatro valores correspondentes aos eixos x e y de 
+ * dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e calcula a distância
+ * entre eles, mostrando 4 casas decimais após a vírgula.
+ */
+
+/**
  * @author gilberto
+ * @since 2018-04-13
+ * @version 0.1
  */
 public class Main {
     public static void main(String args[]){

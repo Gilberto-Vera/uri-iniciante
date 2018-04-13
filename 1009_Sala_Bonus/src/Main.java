@@ -1,14 +1,16 @@
-
 import java.util.Scanner;
-
 /*
- * Este código captura o nome de um vendedor, o seu salário fixo e o total
- * de vendas efetuadas por ele no mês. Adiciona 15% de comissão sobre suas
+ * Desafio: 1009 Salário com Bônus
+ * Descrição: O código captura o nome de um vendedor, o seu salário fixo e o 
+ * total de vendas efetuadas por ele no mês. Adiciona 15% de comissão sobre suas
  * vendas efetuadas e exibe o total a receber no final do mês
  * com duas casas decimais.
- * 
+ */
+
+/**
  * @author gilberto
- * 15/03/2018
+ * @since 2018-03-15
+ * @version 0.1
  */
 public class Main {
     public static void main(String args[]){
