@@ -1,10 +1,13 @@
 import java.util.Scanner;
 
-/* Descrição:
+ /* Desafio 1001 Extramamente Básico
  * lê dois valores e apresenta a soma desses valores
- *
+ */
+
+ /**
  * @author gilberto
- * 09/03/2018
+ * @since 2018-03-09
+ * @version 1.0
  */
 
 public class Main {
