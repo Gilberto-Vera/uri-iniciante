@@ -1,10 +1,13 @@
-
 import java.util.Scanner;
-
 /*
- * Este código lê três valores e apresente o maior dos três.
- *
+ * Desafio: 1013 O Maior
+ * Descrição: Este código lê três valores e apresente o maior dos três.
+ */
+
+/**
  * @author gilberto
+ * @since 2018-03-14
+ * @version 0.1
  */
 public class Main {
     public static void main(String[] args) {
