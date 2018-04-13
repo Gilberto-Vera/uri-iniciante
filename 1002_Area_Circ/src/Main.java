@@ -1,10 +1,15 @@
 import java.util.Scanner;
 
 /*
- * Este código lê um número de ponto flutuante e calcula a área de um cirbulo
- *
+ * Desafio: 1002 Área do Circulo
+ * Descrição: Este código lê um número de ponto flutuante e calcula a área de um
+ * cirbulo
+ */
+
+/**
  * @author gilberto
- * 09/03/2018
+ * @since 2018-03-09
+ * @version 0.1
  */
 
 public class Main {
