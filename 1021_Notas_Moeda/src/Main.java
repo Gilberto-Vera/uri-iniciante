@@ -1,6 +1,7 @@
 import java.io.*;
 
 /*
+ * Desafio 1012 Notas e Moedas
  * O código lê um valor de ponto flutuante com duas casas decimais. E calcula o
  * menor número de notas e moedas possíveis no qual o valor pode ser decomposto.
  * As notas consideradas são de 100, 50, 20, 10, 5, 2 e as moedas possíveis são
