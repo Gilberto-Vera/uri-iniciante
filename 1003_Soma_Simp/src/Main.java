@@ -1,10 +1,13 @@
 import java.util.Scanner;
-
 /*
- * Este código lê dois inteiros e apresenta a soma deles, idem 1001
- *
+ * Desafio: 1003 Soma Simples
+ * Descrição: O código lê dois inteiros e apresenta a soma deles, idem 1001
+ */
+
+/**
  * @author gilberto
- * 09/03/2018
+ * @since 09/03/2018
+ * @version 0.1
  */
 
 public class Main {
