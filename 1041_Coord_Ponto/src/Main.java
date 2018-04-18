@@ -28,22 +28,22 @@ public class Main {
         if(x == 0 && y == 0)
             System.out.println("Origem");
         
-        if(x == 0 && y != 0)
-            System.out.println("Eixo X");
-        
-        if(x != 0 && y == 0)
+        else if(x == 0 && y != 0)
             System.out.println("Eixo Y");
         
-        if(x > 0 && y > 0)
+        else if(x != 0 && y == 0)
+            System.out.println("Eixo X");
+        
+        else if(x > 0 && y > 0)
             System.out.println("Q1");
         
-        if(x < 0 && y > 0)
+        else if(x < 0 && y > 0)
             System.out.println("Q2");
         
-        if(x < 0 && y < 0)
+        else if(x < 0 && y < 0)
             System.out.println("Q3");
         
-        if(x > 0 && y < 0)
+        else if(x > 0 && y < 0)
             System.out.println("Q4");
         
     }
