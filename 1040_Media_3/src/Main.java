@@ -23,37 +23,38 @@ import java.util.Scanner;
 
 /**
  * @author gilberto
- * @since 2018-04-13
- * @version 0.1
+ * @since 2018-04-17
+ * @version 0.2
  */
 public class Main {
     public static void main(String[] args) {
         
         Scanner ler = new Scanner(System.in);
         
-        double n1 = ler.nextDouble();
-        double n2 = ler.nextDouble();
-        double n3 = ler.nextDouble();
-        double n4 = ler.nextDouble();
+        float n1 = ler.nextFloat();
+        float n2 = ler.nextFloat();
+        float n3 = ler.nextFloat();
+        float n4 = ler.nextFloat();
         
-        double n = ((n1 * 2) + (n2 * 3) + (n3 * 4) + (n4)) / 10.0;
+        float n = ((n1 * 2) + (n2 * 3) + (n3 * 4) + (n4)) / 10;
         
         System.out.printf("Media: %.1f\n", n);
         
-        if(n >= 7.0){
-            System.out.println("Aluno aprovado.");
-        }else if(n < 5.0){
-            System.out.println("Aluno reprovado.");
+        if(n >= 7 || n < 5){
+            if(n >= 7)
+                System.out.println("Aluno aprovado.");
+            if(n < 5)
+                System.out.println("Aluno reprovado.");
         }else{
             System.out.println("Aluno em exame.");
             
-            double nE = ler.nextDouble();
+            float nE = ler.nextFloat();
             
             System.out.printf("Nota do exame: %.1f\n", nE);
             
-            double nF = (n + nE) / 2.0;
+            float nF = (n + nE) / 2;
             
-            if(nF >= 5.0){
+            if(nF >= 5){
                 System.out.println("Aluno aprovado.");
             }else{
                 System.out.println("Aluno reprovado.");
