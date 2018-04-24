@@ -21,26 +21,23 @@ public class Main {
         int b = ler.nextInt();
         int c = ler.nextInt();
         
-        int meio = (a + b + Math.abs(a - b)) / 2;
-        int maior = (meio + c + Math.abs(meio - c)) / 2;
-        
-        if(maior == a && meio == b){
-            System.out.println(c + "\n" + b + "\n" + a + "\n");
+        if(a < b && a < c && b < c){
+            System.out.println(a + "\n" + b + "\n" + c + "\n");
             System.out.println(a + "\n" + b + "\n" + c);        
-        }else if(maior == b && meio == a){
-            System.out.println(c + "\n" + a + "\n" + b + "\n");
-            System.out.println(a + "\n" + b + "\n" + c);
-        }else if(maior == a && meio == c){
-            System.out.println(b + "\n" + c + "\n" + a + "\n");
-            System.out.println(a + "\n" + b + "\n" + c);
-        }else if(maior == c && meio == a){
+        }else if(a > b && a < c && b < c){
             System.out.println(b + "\n" + a + "\n" + c + "\n");
             System.out.println(a + "\n" + b + "\n" + c);
-        }else if(maior == b && meio == c){
-            System.out.println(a + "\n" + c + "\n" + b + "\n");
+        }else if(a > b && a > c && b < c){
+            System.out.println(b + "\n" + c + "\n" + a + "\n");
+            System.out.println(a + "\n" + b + "\n" + c);
+        }else if(a > b && a > c && b > c){
+            System.out.println(c + "\n" + b + "\n" + a + "\n");
+            System.out.println(a + "\n" + b + "\n" + c);
+        }else if(a < b && a > c && b > c){
+            System.out.println(c + "\n" + a + "\n" + b + "\n");
             System.out.println(a + "\n" + b + "\n" + c);
         }else{
-            System.out.println(a + "\n" + b + "\n" + c + "\n");
+            System.out.println(a + "\n" + c + "\n" + b + "\n");
             System.out.println(a + "\n" + b + "\n" + c);        
         }
     }
