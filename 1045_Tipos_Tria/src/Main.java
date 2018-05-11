@@ -26,10 +26,54 @@ public class Main {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         
-        int a = ler.nextInt();
-        int b = ler.nextInt();
-        int c = ler.nextInt();
+        float a = ler.nextFloat();
+        float b = ler.nextFloat();
+        float c = ler.nextFloat();
+        float maior, meio, menor;
+                
+        if(a >= b && a >= c && b >= c){
+            maior = a;
+            meio = b;
+            menor = c;
+        }else if(c >= a && c >= b && a >= b){
+            maior = c;
+            meio = a;
+            menor = b;
+        }else if(b >= a && b >= c && c >= a){
+            maior = b;
+            meio = c;
+            menor = a;
+        }else if(a >= c && a >= b && c >= b){
+            maior = a;
+            meio = c;
+            menor = b;
+        }else if(b >= a && b >= c && a >= c){
+            maior = b;
+            meio = a;
+            menor = c;
+        }else{
+            maior = c;
+            meio = b;
+            menor = a;
+        }
         
-        
-    }
+        if(maior >= (meio + menor))
+            System.out.println("NAO FORMA TRIANGULO");
+        else{
+            if((maior * maior) == ((meio * meio) + (menor * menor)))
+                System.out.println("TRIANGULO RETANGULO");
+            
+            if((maior * maior) > ((meio * meio) + (menor * menor)))
+                System.out.println("TRIANGULO OBTUSANGULO");
+            
+            if((maior * maior) < ((meio * meio) + (menor * menor)))
+                System.out.println("TRIANGULO ACUTANGULO");
+            
+            if(a == b && b == c)
+                System.out.println("TRIANGULO EQUILATERO");
+            
+            if(a == b && b != c || a == c && b != c || b == c && a != c)
+                System.out.println("TRIANGULO ISOSCELES");
+        }
+    }   
 }
