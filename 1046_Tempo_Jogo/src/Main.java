@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 /*
- * Desafio: 1045 Tipos de Triângulos
+ * Desafio: 1046 Tempo de Jogo
  * Descrição: O código lê a hora inicial e a hora final de um jogo. A seguir
  * calcula a duração do jogo, sabendo que o mesmo pode começar em um dia e
  * terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
