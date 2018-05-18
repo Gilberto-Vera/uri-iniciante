@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 /*
- * Desafio: 1078 Tabuada
+ * Desafio: 1079 Média Ponderada
  * Leia 1 valor inteiro N, que representa o número de casos de teste que vem a
  * seguir. Cada caso de teste consiste de 3 valores reais, cada um deles com uma
  * casa decimal. Apresente a média ponderada para cada um destes conjuntos de 3
