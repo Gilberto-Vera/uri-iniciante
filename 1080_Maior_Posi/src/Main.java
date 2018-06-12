@@ -24,7 +24,7 @@ public class Main {
         int maior = ler.nextInt();
         int posi = 1;
         
-        for(int i = 1; i < 100; i++){
+        for(int i = 1; i < 10; i++){
             int x = ler.nextInt();
             if(x > maior){
                 maior = x;
