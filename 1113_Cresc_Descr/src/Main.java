@@ -2,18 +2,18 @@
 import java.util.Scanner;
 
 /*
- * Desafio: 1113 Crescente e Decrescente
- * Leia uma quantidade indeterminada de duplas de valores inteiros X e Y.
- * Escreva para cada X e Y uma mensagem que indique se estes valores foram
- * digitados em ordem crescente ou decrescente.
+ * Desafio: 1114 Senha Fixa
+ * Escreva um programa que repita a leitura de uma senha até que ela seja
+ * válida. Para cada leitura de senha incorreta informada, escrever a mensagem
+ * "Senha Invalida". Quando a senha for informada corretamente deve ser
+ * impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere
+ * que a senha correta é o valor 2002. 
  * 
- * Entrada: A entrada contém vários casos de teste. Cada caso contém dois
- * valores inteiros X e Y. A leitura deve ser encerrada ao ser fornecido valores
- * iguais para X e Y.
+ * Entrada: A entrada é composta por vários casos de testes contendo valores
+ * inteiros.
  * 
- * Saída: Para cada caso de teste imprima “Crescente”, caso os valores tenham
- * sido digitados na ordem crescente, caso contrário imprima a mensagem
- * “Decrescente”.
+ * Saída: Para cada valor lido mostre a mensagem correspondente à descrição do
+ * problema.
 */
 
 /**
@@ -28,16 +28,14 @@ public class Main {
         Scanner ler = new Scanner(System.in);
         
         do{
-            int m = ler.nextInt();
-            int n = ler.nextInt();
+            int senha = ler.nextInt();
             
-            if(m != n){
-                if(m < n)
-                    System.out.println("Crescente");
-                else
-                    System.out.println("Decrescente");
-            }else
+            if(senha != 2002){
+                System.out.println("Senha Invalida");
+            }else{
+                System.out.println("Acesso Permitido");
                 return;
+            }
         } while (true);
     }
 }
