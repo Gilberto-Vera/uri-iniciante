@@ -15,7 +15,8 @@ import java.util.Scanner;
  * - O número de vitórias do Inter.
  * - O número de vitórias do Grêmio.
  * - O número de Empates.
- * - Uma mensagem indicando qual o time que venceu o maior número de GRENAIS (ou "Nao houve vencedor", caso termine empatado).
+ * - Uma mensagem indicando qual o time que venceu o maior número de GRENAIS (ou
+ * "Nao houve vencedor", caso termine empatado).
  * 
  * Entrada: O arquivo de entrada contém 2 valores inteiros, correspondentes aos
  * gols marcados pelo Inter e pelo Grêmio respectivamente. Em seguida háverá um
