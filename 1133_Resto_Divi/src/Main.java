@@ -8,6 +8,7 @@ import java.util.Scanner;
  * 
  * Entrada: O arquivo de entrada contém 2 valores positivos inteiros quaisquer,
  * não necessariamente em ordem crescente.
+ * 
  * Saída: Imprima todos os valores conforme exemplo abaixo, sempre em ordem
  * crescente.
 */
