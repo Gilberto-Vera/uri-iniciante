@@ -40,7 +40,7 @@ public class Main {
         int z = ler.nextInt();
         int cont = 0, soma = 0;
         
-        while(z <= x)
+        while(x >= z)
         	z = ler.nextInt();
         
         while(soma < z){
