@@ -12,6 +12,7 @@ import java.util.Scanner;
  * 
  * Saída: Os valores devem ser mostrados na mesma linha, separados por um espaço
  * em branco. Não deve haver espaço após o último valor.
+*/
 
 /**
  * @author gilberto
