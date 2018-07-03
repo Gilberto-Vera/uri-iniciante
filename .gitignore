@@ -14,6 +14,11 @@
 /1021_Notas_Moeda/nbproject/private/
 /1006_Media_2/nbproject/private/
 /1035_Teste_Sele_1/nbproject/private/
+<<<<<<< HEAD
+/1042_Sort_Simpl/nbproject/private/
+/1043_Tria/nbproject/private/
+/1044_Mult/nbproject/private/
+=======
 /1047_Tempo_Jogo_Minu/nbproject/private/
 /1047_Tempo_Jogo_Minu/build/
 /1048_Aume_Sala/nbproject/private/
@@ -81,6 +86,7 @@
 /1080_Maior_Posi/build/
 /1115_Qdnt/nbproject/private/
 /1115_Qdnt/build/
+<<<<<<< HEAD
 /1116_Divi_X_Y/nbproject/private/
 /1116_Divi_X_Y/build/
 /1117_Valid_Nota/nbproject/private/
@@ -114,3 +120,10 @@
 /1153_Fato_Simp/build/
 /1154_Idades/nbproject/private/
 /1154_Idades/build/
+=======
+>>>>>>> e39d9083c67cb488e7ba6fa9fb483e80dd692d12
+/1038_Lanche/build/
+/1037_Inte/build/
+/1041_Coord_Ponto/build/
+/1040_Media_3/build/
+>>>>>>> 6d355bc882687f42028cf7374d8a573c9fff64c6

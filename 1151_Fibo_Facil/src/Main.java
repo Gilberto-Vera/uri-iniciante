@@ -43,8 +43,6 @@ public class Main {
             n1 = n2;
             n2 = atual;
             
-        }
-        
+        }   
     }
-    
 }
