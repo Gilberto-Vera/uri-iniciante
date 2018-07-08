@@ -8,6 +8,7 @@
  * 
  * Saída: A saída contém um valor correspondente ao valor de S.
  * O valor deve ser impresso com dois dígitos após o ponto decimal.
+*/
 
 /**
  * @author gilberto
